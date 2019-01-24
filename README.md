@@ -17,10 +17,11 @@ To read items set the request to GET and insert this into the url: http://localh
   
 To insert new to do list set the request to POST and insert this into the url: http://localhost/`pathToFile`/todoList/insert.php. You will need to provide JSON values e.g.
 
-`{
-    "name" : "value"
+{
     
- }`
+   "name" : "value"
+    
+}
   
 To insert item set the request to POST and insert this into the url: http://localhost/<pathToFile>/todoItem/insert.php. As before you would need to provide JSON values for this in Postman.
   
